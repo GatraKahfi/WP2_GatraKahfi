@@ -23,7 +23,7 @@ class Matakuliah extend CI_Controller
             'min_lenght' => 'Nama terlalu pendek'
 ]);
 
-        if ($this->form_validation->run() != true) {
+     if ($this->form_validation->run() != true) {
         $this->load->view('view-form-matakuliah');
 
 } else {
